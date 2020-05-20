@@ -1,0 +1,95 @@
+h1{
+    color: blue;
+    text-shadow: 2px 2px 20px #CE5937;
+}
+h1:hover{
+    color: red;
+}
+p{
+    text-align: justify;
+}   
+body{
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+.testoelenco {
+    color: purple;
+    background-color: lightyellow;
+    display: block;
+    text-align: left;
+    float: left;
+}
+ul {
+    display: inline-block;
+    text-align: left;
+}
+table,th,td,caption {
+    border-color: rgb(153, 0, 255);
+    border: solid;
+    background-color: rgb(222, 255, 185);
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: peru;
+    border-collapse: collapse;
+}
+
+
+th {width: 20%;}
+td:first-child {width: 30%;}
+em {font-size: 1em; }
+
+.imageright {
+    float: right;
+    margin-right: 2em;
+}
+.linkesterni{
+    float: left;
+    text-align: left;
+}
+.contenitore{
+    margin: 0 auto;
+
+    margin-left: 0;
+    padding-bottom: 30px;
+    }
+
+.centrale{
+        border: 2px solid blue;
+        border-radius: 15px;
+        background-color: lightyellow;
+        padding: 10px;
+}
+
+.Modulo_autocert{
+    float: right;
+    font: normal bold italic;
+    max-width: 100%
+    color: darkblue;
+    margin-right: 2em;
+
+}
+#contenitoredestra{
+    margin: 0 auto;
+    margin-right: 0;
+    float: right;
+    text-align: center;
+    }
+
+#contenitorebasso{
+    margin: 0 auto;
+    height: 200px;
+    margin-left: 0;
+    padding-bottom: 30px;
+}
+
+#contenitoretabella{
+     margin: 0 auto;
+    margin-right: 0;
+    float: left;
+    text-align: center;
+}
+#immagine-modulo{
+    max-width: 100%
+}
+.flex {max-width: 100%}
