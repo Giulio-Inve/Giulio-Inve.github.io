@@ -1,9 +1,10 @@
 h1{
     color: blue;
     text-shadow: 2px 2px 20px #CE5937;
+    padding-top: 5%;
 }
 h1:hover{
-    color: red;
+    color: red;   
 }
 p{
     text-align: justify;
@@ -12,6 +13,25 @@ body{
     text-align: center;
     background-color: lightgoldenrodyellow;
 }
+.sfumato{
+    background-color: burlywood;
+}
+
+#scuro {
+    background-color:rgb(243, 240, 239);
+    padding: 1%;
+}
+
+#scuro2 {
+    background-color:rgb(240, 216, 82);
+    padding: 1%;
+    }
+    
+#scuro3 {
+    background-color:rgb(235, 173, 102);
+    padding: 1%;
+}
+
 .testoelenco {
     color: purple;
     background-color: lightyellow;
@@ -23,7 +43,7 @@ ul {
     display: inline-block;
     text-align: left;
 }
-table,th,td,caption {
+table, tr, th, td, caption {
     border-color: rgb(153, 0, 255);
     border: solid;
     background-color: rgb(222, 255, 185);
@@ -49,7 +69,6 @@ em {font-size: 1em; }
 }
 .contenitore{
     margin: 0 auto;
-
     margin-left: 0;
     padding-bottom: 30px;
     }
@@ -64,8 +83,8 @@ em {font-size: 1em; }
 .Modulo_autocert{
     float: right;
     font: normal bold italic;
-    max-width: 100%
-    color: darkblue;
+    max-width: 100%;
+    color:darkblue;
     margin-right: 2em;
 
 }
@@ -93,3 +112,13 @@ em {font-size: 1em; }
     max-width: 100%
 }
 .flex {max-width: 100%}
+#carouselExampleControls{
+    width: 15%; margin: auto;
+}
+
+.distanzio{
+    padding:5%
+}
+.navigazione{
+    padding-top: 2%;
+}
